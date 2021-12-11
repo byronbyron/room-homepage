@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@500;600;700&display=swap');
 
 body {
-    font-size: 1rem;
+    font-size: 0.75rem;
     font-weight: 400;
-    line-height: 1.5;
+    line-height: 1.6;
     background-size: cover;
     color: var(--black);
     display: flex;
@@ -19,6 +19,10 @@ h1, h2, h3 {
 
 p {
     margin: 0 0 1rem;
+}
+
+.max-w-prose {
+    max-width: 65ch;
 }
 
 .attribution {
