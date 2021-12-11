@@ -14,15 +14,45 @@ body {
 }
 
 h1, h2, h3 {
-    margin-top: 0;
+    line-height: 1.1;
+    margin: 0 0 1rem;
+}
+
+h2 {
+    font-size: 1.625rem;
+}
+
+h3 {
+    font-size: 0.875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
 }
 
 p {
     margin: 0 0 1rem;
+    color: $dark-gray;
+}
+
+.text-body {
+    padding: 4rem 1.625rem 3rem;
+    min-height: 410px;
+    display: flex;
+    align-items: center;
+}
+
+.text-body--sm {
+    padding-top: 3.75rem;
+    padding-bottom: 2.75rem;
+    min-height: 305px;
 }
 
 .max-w-prose {
     max-width: 65ch;
+}
+
+.object-cover {
+    object-fit: cover;
 }
 
 .attribution {

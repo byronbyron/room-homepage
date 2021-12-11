@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/byronbyron/room-homepage#readme",
   "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "browser-sync-webpack-plugin": "^2.3.0",
     "laravel-mix": "^6.0.39",
     "sass": "^1.44.0",
     "sass-loader": "^12.1.0"
