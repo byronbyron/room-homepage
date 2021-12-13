@@ -24,6 +24,11 @@
     object-fit: cover;
 }
 
+.carousel-body,
+.col-text {
+    background-color: $white;
+}
+
 .shop-now {
     font-size: 0.75rem;
     text-transform: uppercase;
