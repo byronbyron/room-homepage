@@ -5922,8 +5922,11 @@ p {
   padding-right: 1rem;
 }
 
+.header__nav li {
+  margin-left: 1rem;
+}
 .header__nav a {
-  font-size: 0.875rem;
+  font-size: 0.75rem;
   font-weight: 600;
   color: black;
   text-decoration: none;
@@ -5950,9 +5953,9 @@ p {
     display: none;
   }
 
-  .header__collapse:not(.show) {
+  .header__collapse {
     position: static;
-    display: block;
+    display: block !important;
     background-color: transparent;
     padding-left: 0;
   }
@@ -5965,6 +5968,7 @@ p {
     justify-content: flex-start;
   }
   .header__nav li {
+    margin-left: 0;
     margin-right: 0.125rem;
   }
   .header__nav a {
@@ -5987,6 +5991,10 @@ p {
   }
   .header__nav a:hover::after, .header__nav a:focus::after {
     transform: translate3d(-50%, 0, 0) scale3d(1, 1, 1);
+  }
+
+  .header__menu-overlay {
+    display: none;
   }
 }
 .carousel-control-prev,
@@ -6070,7 +6078,7 @@ p {
 
   .carousel-row {
     display: flex;
-    min-height: 534px;
+    min-height: 33.375rem;
   }
 
   .carousel-image {
@@ -6078,7 +6086,7 @@ p {
   }
   .carousel-image,
 .carousel-image img {
-    min-height: 534px;
+    min-height: 33.375rem;
   }
 
   .carousel-body {
@@ -6087,6 +6095,6 @@ p {
     padding: 4rem 2rem 5rem;
   }
   .carousel-body .max-w-prose {
-    max-width: 400px;
+    max-width: 25rem;
   }
 }

@@ -19,11 +19,9 @@
     right: 3.5rem;
 }
 
-.carousel-item {
-    img {
-        height: 22.5rem;
-        object-fit: cover;
-    }
+.carousel-item img {
+    height: 22.5rem;
+    object-fit: cover;
 }
 
 .shop-now {
@@ -85,7 +83,7 @@
 
     .carousel-row {
         display: flex;
-        min-height: 534px;
+        min-height: 33.375rem;
     }
 
     .carousel-image {
@@ -93,7 +91,7 @@
 
         &,
         img {
-            min-height: 534px;
+            min-height: 33.375rem;
         }
     }
 
@@ -103,7 +101,7 @@
         padding: 4rem 2rem 5rem;
 
         .max-w-prose {
-            max-width: 400px;
+            max-width: 25rem;
         }
     }
 }
