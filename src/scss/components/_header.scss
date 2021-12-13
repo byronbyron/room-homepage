@@ -25,6 +25,49 @@
     top: 0;
     left: 0;
     z-index: 110;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &::after {
+        content: "";
+    }
+}
+
+.header__menu-overlay {
+    padding: 0;
+    border: 0;
+    display: block;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.3s, opacity 0.3s, background-color 0.3s;
+
+    &[aria-expanded="true"] {
+        visibility: visible;
+        opacity: 1;
+        background-color: rgba($black, 0.5);
+    }
+}
+
+.icon-close {
+    display: none;
+}
+
+[aria-expanded="true"] {
+    .icon-burger {
+        display: none;
+    }
+
+    .icon-close {
+        display: block;
+    }
 }
 
 .header__logo a {
