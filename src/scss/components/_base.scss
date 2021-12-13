@@ -103,8 +103,7 @@ p {
     }
 
     .col-image:last-child {
-        flex: 1 0 41.6666%;
-        max-width: calc(41.6666% - 160px);
+        flex: 1;
     }
 
     .text-body--sm {
