@@ -92,8 +92,8 @@
     }
 
     a {
-        font-size: 0.75rem;
-        font-weight: 600;
+        font-size: 1rem;
+        font-weight: 400;
         color: $black;
         text-decoration: none;
         display: inline-block;
@@ -111,6 +111,11 @@
 }
 
 @include media-breakpoint-up(lg) {
+    h2 {
+        font-size: 3rem;
+        margin-bottom: 1.5rem;
+    }
+
     .header__navbar {
         height: 8.875rem;
         padding-left: 2rem;
@@ -140,7 +145,6 @@
         }
 
         a {
-            font-size: 0.75rem;
             padding: 2rem 0.875rem;
             color: $white;
             position: relative;
